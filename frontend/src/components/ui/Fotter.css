@@ -1,0 +1,67 @@
+/* Footer.css */
+
+.footer-container {
+  background: linear-gradient(to right, #1f2937, #374151); /* Dark background gradient */
+  color: white; /* Text color */
+  padding: 2rem 1rem; /* Adjust padding for mobile responsiveness */
+}
+
+.footer-section {
+  max-width: 1200px; /* Maximum width */
+  margin: 0 auto; /* Center alignment */
+  display: flex;
+  flex-wrap: wrap; /* Ensure responsiveness */
+  justify-content: space-between;
+}
+
+.footer-section h2 {
+  font-size: 1.5rem; /* Adjust header size */
+  margin-bottom: 1rem; /* Space between header and content */
+  color: #60a5fa; /* Accent color for header */
+}
+
+.footer-section p {
+  font-size: 1rem; /* Adjust paragraph size */
+  color: #d1d5db; /* Text color */
+  line-height: 1.5;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 0.5rem; /* Adjust spacing */
+}
+
+.footer-section ul li a {
+  color: #d1d5db; /* Text color */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.footer-section ul li a:hover {
+  color: white; /* Hover effect color */
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.social-icons a {
+  color: #d1d5db;
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.social-icons a:hover {
+  color: white; /* Hover effect color */
+}
+
+@media (max-width: 768px) {
+  .footer-section {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+  }
+}

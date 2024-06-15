@@ -1,0 +1,52 @@
+/* Slider.css */
+.slider-container {
+  max-width: 80vw; /* Set the max-width to use a viewport percentage */
+  margin: 0 auto;
+  background-color: transparent; /* Keep background transparent */
+  position: relative; /* Needed to position absolute child elements */
+}
+
+.slider-item {
+  position: relative;
+  border-radius: 10px; /* Ensure the item has rounded corners */
+}
+
+.slider-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.legend {
+  background-color: red;
+  position: absolute; /* Positioning is needed for legend */
+  bottom: 0;
+  background: rgba(163, 61, 61, 0.6);
+  color: white;
+  padding: 20px;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+}
+
+.legend h2 {
+  margin-bottom: 10px;
+}
+
+.legend p {
+  margin-bottom: 15px;
+}
+
+.legend button {
+  background-color: #008CBA; /* Light blue background color */
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s; /* Smooth transition for button hover */
+}
+
+.legend button:hover {
+  background-color: #005f73; /* Dark blue background color */
+}
